@@ -16,13 +16,13 @@ from datetime import datetime
 
 # ============ 配置区 ============
 # NapCat HTTP API
-NAPCAT_API = "http://127.0.0.1:3000"
-NAPCAT_TOKEN = "RNrhOEIo20Da.V12"  # HTTP 服务器 token
+NAPCAT_API = ""
+NAPCAT_TOKEN = ""  # HTTP 服务器 token
 
 # DeepSeek API
 AI_API_URL = "https://api.deepseek.com/v1/chat/completions"
 AI_API_KEY = ""
-AI_MODEL = "deepseek-chat"
+AI_MODEL = ""
 
 # 私聊白名单（留空 = 回复所有人）
 AUTO_REPLY_USERS = []
@@ -34,7 +34,7 @@ AUTO_REPLY_GROUPS = []
 BLOCKED_USERS = []
 
 # 自己的 QQ 号
-MY_QQ = "1065922680"
+MY_QQ = ""
 
 # ---- 私聊 Prompt ----
 PRIVATE_SYSTEM_PROMPT = (
